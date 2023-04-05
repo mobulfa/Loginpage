@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+ 
+    <title>Login Page</title>
+</head>
+<body>
+    <!-- Start Container -->
+    <div class="container">
+        <h1>Sign In</h1>
+        <!-- Start Form -->
+        <form action="#">
+            <!-- Input Text and Label -->
+            <div class="txt_field">
+                <input type="text" required>
+                <span></span>
+                <label class="bi bi-envelope"> Username or Email</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" name="password" id="password"required>
+                <!-- icon for show password -->
+                <span><i class="bi bi-eye-slash" id="togglePassword"></i></span>
+                <!-- end of icon for show password -->
+                <label class="bi bi-key"> Password</label>
+            </div>
+            <div class="pass">Forgot Password?</div>
+            <input type="submit" name="Login" value="Login">   
+        </form>
+        <!-- End of Form -->
+        
+        <!-- Icons for Contiue Sign in with -->
+        <div class="icons">
+            <h5>Or Continue With</h5>
+            <a href="#" target="_blank" class="bi bi-facebook"> Facebook</a>
+            <a href="#" target="_blank"  class="bi bi-google"> Google</a>
+        </div>
+        <!-- End of icons for continue sign in -->
+    </div>
+    <!-- End Container -->
+
+    <!-- External JavaScprit-->
+    <script src="assets/js/main.js"></script>
+    <!-- end of Script -->
+</body>
+</html>
